@@ -1,0 +1,29 @@
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.active {
+  composes: status;
+  background-color: violet;
+}
+
+.nonActive {
+  composes: status;
+  background-color: darkred;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 3px 2px rgb(0 0 0 / 35%);
+}
+
+.name {
+  padding-left: 10px;
+  font-size: 30px;
+}

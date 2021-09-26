@@ -1,0 +1,29 @@
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.tableHead {
+  height: 45px;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+  background-color: lightblue;
+  color: black;
+}
+
+.tableRow {
+  height: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+.tableRow:nth-child(even) {
+  background-color: whitesmoke;
+}

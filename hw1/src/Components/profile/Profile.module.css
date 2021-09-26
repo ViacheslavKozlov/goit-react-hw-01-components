@@ -1,0 +1,46 @@
+.headline {
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    margin: 15px;
+    padding: 50px;
+    background-color: darkgrey;
+}
+
+.profile {
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.avatar {
+    width: 75%;
+    object-fit: contain;
+}
+
+.stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.item {
+    padding: 20px;
+    display: flex;
+    flex-basis: calc(100% / 3);
+    flex-direction: column;
+    justify-content: space-around;
+    background:inherit;
+}
+
+.label {
+    margin-bottom: 5px;
+    color:whitesmoke;
+}
+
+.quantity {
+    font-size: 25px;
+}
