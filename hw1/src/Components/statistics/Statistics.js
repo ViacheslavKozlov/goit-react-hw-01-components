@@ -4,7 +4,7 @@ import style from "./Statistics.module.css";
 const Statistics = ({ title, stats }) => {
   return (
     <div className={style.stats}>
-      {title.length && <h2 className={style.statsHeadline}>{title}</h2>}
+      {title && <h2 className={style.statsHeadline}>{title}</h2>}
       <ul className={style.statsList}>
         {stats.map(stat => (
           <li key={stat.id} className={style.statsItem}>
